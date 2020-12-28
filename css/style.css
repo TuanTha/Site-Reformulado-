@@ -1,3 +1,8 @@
+/* NAVBAR  responsiva*/
+
+@media only screen and (max-device-width: 2000px) {
+
+
 @font-face:'Montserrat','Old London';
 
 
@@ -21,7 +26,7 @@
 #nav a{
 color: white;
 text-decoration: none;
-font-size: 110%;
+font-size: 1em;
 
 }
 
@@ -56,3 +61,64 @@ nav ul{
     padding-top: 0.2%;
     padding-left: 30%;
 }
+
+}
+
+
+@media only screen and (max-device-width: 900px) {
+
+    
+
+    #nav{
+        background-color: gray;
+        height: 50px;
+        
+    }
+    
+    
+    #nav ul li{
+        display: inline;
+    }
+    
+    #nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    
+    }
+    
+    nav{ 
+        width: 100%;  
+    }
+    
+    a{
+        font-family: 'Montserrat';
+        text-shadow: 1px 1px black;
+    }
+    
+    #textonav{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #textoti a{
+        font-family: 'Old London';
+        font-size: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    nav ul li a:hover{
+        background-color: lightgray;
+        padding: 22px 5px 15px 5px;
+        transition: all 0.5s;
+        
+    }
+    
+    nav ul{
+        padding-top: 0.2%;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+    
+    }
